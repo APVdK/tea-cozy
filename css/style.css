@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.flex-container {
+
+}
+
+/*Header Section*/
+
+header {
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px seashell solid;
+  display: flex;
+  height: 69px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+header img {
+  /*flex-grow: */
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+}
+
+/*Mission Section*/
